@@ -1,6 +1,6 @@
 import PostsPagination from "@/components/posts/PostsPagination";
 import PostsTable from "@/components/posts/PostsTable";
-import BackButton from "@/components/ui/BackButton";
+import BackButton from "@/components/BackButton";
 import React from "react";
 
 const Postspage = () => {

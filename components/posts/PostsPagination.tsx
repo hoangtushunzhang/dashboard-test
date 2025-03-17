@@ -22,7 +22,7 @@ const PostsPagination = () => {
           <PaginationLink href="#">2</PaginationLink>
         </PaginationItem>
         <PaginationItem>
-          <PaginationLink href="#">3</PaginationLink>
+          <PaginationLink href="#">3</PaginationLink>   
         </PaginationItem>
         <PaginationItem>
           <PaginationEllipsis />
