@@ -49,6 +49,7 @@ const PostEditPage = ({ params }: { params: Promise<{ id: string }> }) => {
 
   const handleSubmit = (data: z.infer<typeof formSchema>) => {
     toast(`Updated by ${post?.author} on ${post?.date}`);
+    console.log(data);
   };
 
   return (
